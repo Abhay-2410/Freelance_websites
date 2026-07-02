@@ -1,22 +1,28 @@
-# UrbanTeak Furnishings — Sample Website
+# Freelance_websites
+
+Sample website templates for freelance client demos.
+
+## Bangalore Furniture Showcase
 
 A demo furniture store website built for showcasing to furniture store owners in Bangalore. Includes 4 pages with product catalog, pricing, and store contact details.
 
-## Pages
+**Live demo:** https://bangalore-furniture-showcase.vercel.app
+
+### Pages
 
 - **Home** — Hero, category links, featured products, and trust highlights
 - **Products** — 12 furniture items across Living Room, Bedroom, Dining, and Office with INR pricing
 - **About** — Store story, values, and milestones
 - **Contact** — Address, phone, WhatsApp, email, hours, and Google Maps embed
 
-## Tech Stack
+### Tech Stack
 
 - [Next.js 16](https://nextjs.org/) (App Router)
 - [Tailwind CSS 4](https://tailwindcss.com/)
 - TypeScript
 - Deploy-ready for [Vercel](https://vercel.com/)
 
-## Getting Started
+### Getting Started
 
 ```bash
 npm install
@@ -25,26 +31,15 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Deploy to Vercel
-
-### Option 1: Vercel Dashboard (easiest)
-
-1. Push this folder to a GitHub repository
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your repository
-4. Vercel auto-detects Next.js — click **Deploy**
-5. Share the live URL with store owners
-
-### Option 2: Vercel CLI
+### Deploy to Vercel
 
 ```bash
-npm i -g vercel
-vercel
+npx vercel --prod
 ```
 
-Follow the prompts. Run `vercel --prod` for production deployment.
+Or connect this GitHub repo in the [Vercel dashboard](https://vercel.com/new) for automatic deploys on push.
 
-## Customizing for a Client
+### Customizing for a Client
 
 Edit `src/data/store.ts` to update:
 
@@ -54,7 +49,7 @@ Edit `src/data/store.ts` to update:
 
 Replace Unsplash image URLs with the client's own product photos for a personalized demo.
 
-## Project Structure
+### Project Structure
 
 ```
 src/
@@ -64,7 +59,7 @@ src/
 └── lib/utils.ts   # Shared utilities
 ```
 
-## Build
+### Build
 
 ```bash
 npm run build
