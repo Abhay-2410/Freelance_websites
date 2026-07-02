@@ -2,7 +2,7 @@
 
 Sample website templates for freelance client demos.
 
-## Bangalore Furniture Showcase
+## furniture1
 
 A demo furniture store website built for showcasing to furniture store owners in Bangalore. Includes 4 pages with product catalog, pricing, and store contact details.
 

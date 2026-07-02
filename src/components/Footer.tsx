@@ -63,7 +63,7 @@ export default function Footer() {
       <div className="border-t border-stone-700">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-stone-400 sm:flex-row sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} {storeInfo.name}. All rights reserved.</p>
-          <p>Sample website template for furniture store owners</p>
+          <p>furniture1 template for furniture store owners</p>
         </div>
       </div>
     </footer>
