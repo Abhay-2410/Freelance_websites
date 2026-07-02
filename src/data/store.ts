@@ -48,7 +48,7 @@ export const products: Product[] = [
     description:
       "Solid teak frame with premium linen upholstery. Deep cushions for everyday comfort.",
     image:
-      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
+      "https://images.unsplash.com/photo-1534595038511-9f219fe0c979?w=800&q=80",
     featured: true,
   },
   {
