@@ -48,7 +48,7 @@ export const products: Product[] = [
     description:
       "Solid teak frame with premium linen upholstery. Deep cushions for everyday comfort.",
     image:
-      "https://images.unsplash.com/photo-1555041469-a586c12ea9bc?w=800&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=800&q=80",
     featured: true,
   },
   {
@@ -122,7 +122,7 @@ export const products: Product[] = [
     description:
       "Space-saving bench seating with water-resistant fabric. Ideal for breakfast nooks.",
     image:
-      "https://images.unsplash.com/photo-1615066398934-264f6d547f6f?w=800&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800&q=80",
   },
   {
     id: "bar-cabinet",
@@ -132,7 +132,27 @@ export const products: Product[] = [
     description:
       "Glass-front bar unit with wine rack, LED lighting, and lockable storage.",
     image:
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80",
+  },
+  {
+    id: "round-dining-table",
+    name: "4-Seater Round Dining Table",
+    category: "dining",
+    price: 34999,
+    description:
+      "Compact round table in solid mango wood with pedestal base. Ideal for smaller dining spaces.",
+    image:
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+  },
+  {
+    id: "teak-sideboard",
+    name: "Teak Sideboard",
+    category: "dining",
+    price: 22999,
+    description:
+      "Three-door sideboard with brass handles and inner shelving for crockery and serveware.",
+    image:
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&q=80",
   },
   {
     id: "office-desk-l",
@@ -152,7 +172,7 @@ export const products: Product[] = [
     description:
       "Adjustable lumbar support, breathable mesh back, and 360° swivel.",
     image:
-      "https://images.unsplash.com/photo-1580480054963-aaa28b4a0d74?w=800&q=80",
+      "https://images.unsplash.com/photo-1503602642458-232111445657?w=800&q=80",
   },
   {
     id: "bookshelf-5tier",
